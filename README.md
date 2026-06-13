@@ -4,6 +4,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
+<p align="center">
+  <em>"Nature is pleased with simplicity."</em><br>
+  — Isaac Newton
+</p>
+
 > A curated list of papers, code, and resources for **one-step diffusion models** — methods that turn noise into high-quality samples in a *single* neural network forward pass.
 >
 > Unlike most lists that simply split work into "native vs. distillation", this list is organized by the **core mathematical principle that makes one step generation possible**. Within each principle we then separate 🟢 **native** (from-scratch) and 🔵 **distillation** (teacher-dependent) variants.
