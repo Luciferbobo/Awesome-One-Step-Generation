@@ -568,7 +568,6 @@ If you find this list useful in your research, please consider citing it:
 ```bibtex
 @misc{awesome-one-step-generation,
   title        = {Awesome One-Step Generation},
-  author       = {Awesome One-Step Generation Contributors},
   howpublished = {\url{https://github.com/Luciferbobo/Awesome-One-Step-Generation}},
   year         = {2026}
 }
