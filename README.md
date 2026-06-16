@@ -455,8 +455,7 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 | Date | Paper | Venue | Type | Category | Links |
 |------|-------|-------|:----:|:--------:|------|
 | 2026.05 | FlowSR: Fast Image SR via Consistency Rectified Flow | ICCV 2025 | 🟢 | APP | [[Paper](https://arxiv.org/abs/2605.12377)] |
-| 2026.03 | Gradient Flow Drifting: Generative Modeling via Wasserstein Gradient Flows | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2604.12273)] |
-| 2026.03 |  | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2604.12273)] |
+| 2026.04 | SubFlow: Sub-mode Conditioned Flow Matching for Diverse One-Step Generation | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2604.12273)] |
 | 2026.03 | Gradient Flow Drifting: Generative Modeling via Wasserstein Gradient Flows | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2603.10592)] |
 | 2026.01 | One-step Latent-free Image Generation with Pixel Mean Flows (pMF) | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2601.22158)] |
 | 2026.03 | Generative Drifting is Secretly Score Matching: a Spectral and Variational Perspective | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2603.09936)] |
