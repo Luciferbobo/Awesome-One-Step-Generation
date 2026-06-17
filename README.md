@@ -166,6 +166,10 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 
 > **Progressive Distillation** is catalogued under [Related Resources → Foundational Works](#foundational-works) as it is a general step-compression method rather than a one-step-specific technique. It is cross-referenced here as it inspired much of the flow-distillation lineage.
 
+- **Bi-Anchor Interpolation Solver for Accelerating Generative Modeling** [ICML 2026] 🔵
+  [[Paper](https://arxiv.org/abs/2601.21542)] [[Code](https://github.com/HKUST-LongGroup/BA-solver)]
+  Lightweight training-based solver for flow matching models.
+  
 - **InstaFlow: One Step is Enough for High-Quality Diffusion-Based Text-to-Image Generation** [ICLR 2024] 🔵  
   [[Paper](https://arxiv.org/abs/2309.06380)] [[Code](https://github.com/gnobitab/InstaFlow)]  
   Rectified-Flow reflow technique for one-step text-to-image.
