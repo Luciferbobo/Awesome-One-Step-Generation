@@ -340,6 +340,11 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
   [[Paper](https://arxiv.org/abs/2603.10592)]  
   Establishes exact equivalence between drifting and Wasserstein gradient flow of KL divergence; extends to Riemannian manifolds.
 
+- **W-Flow: One-Step Generative Modeling via Wasserstein Gradient Flows** [2026] 🟢  
+  [[Paper](https://arxiv.org/abs/2605.11755)] [[Code](https://github.com/hanjq17/W-Flow)]  
+  Trains a one-step generator with training dynamics guided by a Wasserstein gradient flow of the Sinkhorn divergence; achieves FID 1.29 on ImageNet 256×256 with one-step generation.
+
+
 ---
 
 ## Applications
@@ -454,6 +459,7 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 
 | Date | Paper | Venue | Type | Category | Links |
 |------|-------|-------|:----:|:--------:|------|
+| 2026.05 | W-Flow: One-Step Generative Modeling via Wasserstein Gradient Flows | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2605.11755)] |
 | 2026.05 | FlowSR: Fast Image SR via Consistency Rectified Flow | ICCV 2025 | 🟢 | APP | [[Paper](https://arxiv.org/abs/2605.12377)] |
 | 2026.04 | SubFlow: Sub-mode Conditioned Flow Matching for Diverse One-Step Generation | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2604.12273)] |
 | 2026.03 | Gradient Flow Drifting: Generative Modeling via Wasserstein Gradient Flows | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2603.10592)] |
@@ -540,6 +546,7 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 | 2022.10 | Flow Matching for Generative Modeling | ICLR 2023 | 🟢 | FW | [[Paper](https://arxiv.org/abs/2210.02747)] |
 | 2022.09 | Flow Straight and Fast: Learning to Generate and Transfer Data with Rectified Flow | ICLR 2023 Spotlight | 🟢 | FW | [[Paper](https://arxiv.org/abs/2209.03003)] |
 | 2022.02 | Progressive Distillation for Fast Sampling of Diffusion Models | ICLR 2023 | 🔵 | FW | [[Paper](https://arxiv.org/abs/2202.00512)] |
+
 
 ---
 
