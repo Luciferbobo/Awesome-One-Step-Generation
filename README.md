@@ -322,10 +322,6 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
   [[Paper](https://arxiv.org/abs/2503.15457)] [[Code](https://github.com/yuanzhi-zhu/DiMO)]  
   First work distilling discrete masked diffusion models into a one-step generator.
 
-- **On the Design of One-step Diffusion via Shortcutting Flow Paths** [2025] 🟢  
-  [[Paper](https://arxiv.org/abs/2512.11831)]  
-  Theoretical analysis of supervision signal variance for designing one-step flow shortcuts.
-
 ---
 
 ## Drifting Models
@@ -444,6 +440,10 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
   [[Paper](https://openreview.net/forum?id=ib0aV2hphN)]  
   A unified high-order flow-matching framework.
 
+- **On the Design of One-step Diffusion via Shortcutting Flow Paths** [ICLR 2026] 🟢  
+  [[Paper](https://arxiv.org/abs/2512.11831)] [[Code](https://github.com/EDAPINENUT/ExplicitShortCut)]  
+  Theoretical analysis of supervision signal variance for designing one-step flow shortcuts.
+
 
 ---
 
@@ -465,7 +465,7 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 | 2026.01 | DiffRatio: Training One-Step Diffusion Models Without Teacher Supervision | ICLR 2025 | 🟢 | DDM | [[Paper](https://arxiv.org/abs/2502.08005)] [[Code](https://github.com/Wenlin-Chen/DiffRatio)] |
 | 2025.12 | High-Order Flow Matching: Unified Framework | NeurIPS 2025 | — | TH | [[Paper](https://openreview.net/forum?id=ib0aV2hphN)] |
 | 2025.12 | TwinFlow: One-step Generation with Self-adversarial Flows | ICLR 2026 | 🟢 | ADV | [[Paper](https://arxiv.org/abs/2512.05150)] [[Code](https://github.com/inclusionAI/TwinFlow)] |
-| 2025.12 | On the Design of One-step Diffusion via Shortcutting Flow Paths | 2025 | 🟢 | SC | [[Paper](https://arxiv.org/abs/2512.11831)] |
+| 2025.12 | On the Design of One-step Diffusion via Shortcutting Flow Paths | ICLR 2026 | 🟢 | TH | [[Paper](https://arxiv.org/abs/2512.11831)] [[Code](https://github.com/EDAPINENUT/ExplicitShortCut)] |
 | 2025.11 | ODTSR: One-Step Diffusion Transformer for Controllable Real-World Image SR | CVPR 2026 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2511.17138)] [[Code](https://github.com/RedMediaTech/ODTSR)] |
 | 2025.11 | Consistency Trajectory Matching for One-Step Generative SR | ICCV 2025 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2503.20349)] [[Code](https://github.com/LabShuHangGU/CTMSR)] |
 | 2025.11 | DOVE: Efficient One-Step Diffusion for Real-World Video SR | NeurIPS 2025 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2505.16239)] [[Code](https://github.com/zhengchen1999/DOVE)] |
