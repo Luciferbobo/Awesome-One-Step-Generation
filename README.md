@@ -38,6 +38,7 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 - [Shortcut / Direct Mapping](#shortcut--direct-mapping) — *Shortcut Models, D2O, NCT*
 - [Drifting Models](#drifting-models) — *Generative Drifting, Gradient Flow Drifting*
 - [Applications](#applications)
+  - [Text-to-Image / Personalization](#text-to-image--personalization)
   - [Image Super-Resolution](#image-super-resolution)
   - [Video Generation](#video-generation)
   - [3D Generation](#3d-generation)
@@ -274,6 +275,10 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
   [[Paper](https://arxiv.org/abs/2410.18881)] [[Code](https://github.com/pkulwj1994/diff_instruct_pp)]  
   Human-preference alignment for one-step text-to-image generators.
 
+- **WaDi: Weight Direction-aware Distillation for One-step Image Synthesis** [CVPR 2026] 🔵  
+  [[Paper](https://arxiv.org/abs/2603.08258)] [[Code](https://github.com/gudaochangsheng/WaDi)]  
+  Weight-direction-aware VSD framework with LoRaD adapters, improving one-step distillation with about 10% trainable parameters.
+
 ---
 
 ## Adversarial Training
@@ -353,6 +358,16 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 
 ## Applications
 
+### Text-to-Image / Personalization
+
+- **PixelRush: Ultra-Fast, Training-Free High-Resolution Image Generation via One-step Diffusion** [CVPR 2026] 🔵  
+  [[Paper](https://arxiv.org/abs/2602.12769)]  
+  Training-free patch-based low-step/one-step high-resolution text-to-image generation, targeting practical 4K synthesis.
+
+- **Adversarial Concept Distillation for One-Step Diffusion Personalization (OPAD)** [CVPR 2026 Findings] 🔵  
+  [[Paper](https://arxiv.org/abs/2510.20512)]  
+  Teacher-student adversarial distillation for personalizing one-step text-to-image diffusion models.
+
 ### Image Super-Resolution
 
 - **One-Step Effective Diffusion Network for Real-World Image Super-Resolution (OSEDiff)** [NeurIPS 2024] 🔵  
@@ -372,6 +387,10 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 
 - **One-Step Diffusion Transformer for Controllable Real-World Image SR (ODTSR)** [CVPR 2026] 🔵  
   [[Paper](https://arxiv.org/abs/2511.17138)] [[Code](https://github.com/RedMediaTech/ODTSR)]
+
+- **TEASR: Training-efficient Any-step Diffusion Transformer for Real-World Image Super-Resolution** [2026] 🔵  
+  [[Paper](https://arxiv.org/abs/2606.16188)]  
+  Self-adversarial any-step Real-ISR distillation in a single diffusion model, supporting both one-step and multi-step restoration.
 
 ### Video Generation
 
@@ -463,13 +482,15 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 
 | Date | Paper | Venue | Type | Category | Links |
 |------|-------|-------|:----:|:--------:|------|
+| 2026.06 | TEASR: Training-efficient Any-step Diffusion Transformer for Real-World Image Super-Resolution | 2026 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2606.16188)] |
 | 2026.05 | W-Flow: One-Step Generative Modeling via Wasserstein Gradient Flows | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2605.11755)] |
 | 2026.05 | FlowSR: Fast Image SR via Consistency Rectified Flow | ICCV 2025 | 🟢 | APP | [[Paper](https://arxiv.org/abs/2605.12377)] |
 | 2026.04 | SubFlow: Sub-mode Conditioned Flow Matching for Diverse One-Step Generation | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2604.12273)] |
 | 2026.03 | Gradient Flow Drifting: Generative Modeling via Wasserstein Gradient Flows | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2603.10592)] |
-| 2026.01 | One-step Latent-free Image Generation with Pixel Mean Flows (pMF) | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2601.22158)] |
 | 2026.03 | Generative Drifting is Secretly Score Matching: a Spectral and Variational Perspective | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2603.09936)] |
+| 2026.03 | WaDi: Weight Direction-aware Distillation for One-step Image Synthesis | CVPR 2026 | 🔵 | DDM | [[Paper](https://arxiv.org/abs/2603.08258)] [[Code](https://github.com/gudaochangsheng/WaDi)] |
 | 2026.03 | SoFlow: Solution Flow Models for One-Step Generative Modeling | ICLR 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2512.15657)] [[Code](https://github.com/zlab-princeton/SoFlow)] |
+| 2026.02 | PixelRush: Ultra-Fast, Training-Free High-Resolution Image Generation via One-step Diffusion | CVPR 2026 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2602.12769)] |
 | 2026.02 | Bi-Anchor Interpolation Solver for Accelerating Generative Modeling | ICML 2026 | 🔵 | SC | [[Paper](https://arxiv.org/abs/2601.21542)] [[Code](https://github.com/HKUST-LongGroup/BA-solver)] |
 | 2026.02 | Generative Modeling via Drifting | 2026 | 🟢 | DM | [[Paper](https://arxiv.org/abs/2602.04770)] [[Code](https://github.com/lambertae/drifting)] |
 | 2026.01 | One-step Latent-free Image Generation with Pixel Mean Flows (pMF) | 2026 | 🟢 | FS | [[Paper](https://arxiv.org/abs/2601.22158)] |
@@ -478,6 +499,7 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
 | 2025.12 | TwinFlow: One-step Generation with Self-adversarial Flows | ICLR 2026 | 🟢 | ADV | [[Paper](https://arxiv.org/abs/2512.05150)] [[Code](https://github.com/inclusionAI/TwinFlow)] |
 | 2025.12 | On the Design of One-step Diffusion via Shortcutting Flow Paths | ICLR 2026 | 🟢 | TH | [[Paper](https://arxiv.org/abs/2512.11831)] [[Code](https://github.com/EDAPINENUT/ExplicitShortCut)] |
 | 2025.11 | ODTSR: One-Step Diffusion Transformer for Controllable Real-World Image SR | CVPR 2026 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2511.17138)] [[Code](https://github.com/RedMediaTech/ODTSR)] |
+| 2025.10 | Adversarial Concept Distillation for One-Step Diffusion Personalization (OPAD) | CVPR 2026 Findings | 🔵 | APP | [[Paper](https://arxiv.org/abs/2510.20512)] |
 | 2025.11 | Consistency Trajectory Matching for One-Step Generative SR | ICCV 2025 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2503.20349)] [[Code](https://github.com/LabShuHangGU/CTMSR)] |
 | 2025.11 | DOVE: Efficient One-Step Diffusion for Real-World Video SR | NeurIPS 2025 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2505.16239)] [[Code](https://github.com/zhengchen1999/DOVE)] |
 | 2025.10 | One-Step Diffusion for Detail-Rich Video SR (DLoRAL) | NeurIPS 2025 | 🔵 | APP | [[Paper](https://arxiv.org/abs/2506.15591)] |
