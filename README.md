@@ -430,6 +430,42 @@ Instead of the usual *native vs. distillation* split, we group methods by **the 
   [[Paper](https://arxiv.org/abs/2504.01956)] [[Code](https://github.com/THU-SI/VideoScene)]  
   First one-step 3D scene generation by distilling video diffusion.
 
+#### Text-to-3D Refinement
+
+> These peer-reviewed, application-adjacent works refine or accelerate 3D asset creation, but are not classified in the main taxonomy unless they explicitly train or distill a single-step generator.
+
+- **DreamFusion: Text-to-3D using 2D Diffusion** [ICLR 2023 Notable Top 5%]<br>
+  [[Paper](https://openreview.net/forum?id=FjNys5c7VyY)] [[Project](https://dreamfusion3d.github.io/)]<br>
+  Introduces probability density distillation / SDS-style optimization from a pretrained 2D diffusion prior for text-to-3D synthesis.
+
+- **Latent-NeRF: Shape-Guided Generation of 3D Shapes and Textures** [CVPR 2023]<br>
+  [[Paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Metzer_Latent-NeRF_for_Shape-Guided_Generation_of_3D_Shapes_and_Textures_CVPR_2023_paper.pdf)] [[Code](https://github.com/eladrich/latent-nerf)]<br>
+  Applies latent diffusion guidance directly to NeRFs and meshes, adding optional shape guidance for more controllable text-to-3D generation.
+
+- **Magic3D: High-Resolution Text-to-3D Content Creation** [CVPR 2023]<br>
+  [[Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Lin_Magic3D_High-Resolution_Text-to-3D_Content_Creation_CVPR_2023_paper.html)] [[Project](https://research.nvidia.com/labs/dir/magic3d/)]<br>
+  Two-stage coarse-to-fine text-to-3D optimization that accelerates DreamFusion-style SDS and improves mesh resolution.
+
+- **Fantasia3D: Disentangling Geometry and Appearance for High-quality Text-to-3D Content Creation** [ICCV 2023]<br>
+  [[Paper](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Fantasia3D_Disentangling_Geometry_and_Appearance_for_High-quality_Text-to-3D_Content_Creation_ICCV_2023_paper.pdf)] [[Code](https://github.com/Gorilla-Lab-SCUT/Fantasia3D)]<br>
+  Disentangles geometry and appearance optimization for higher-quality, relightable 3D assets guided by 2D diffusion priors.
+
+- **ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation** [NeurIPS 2023 Spotlight]<br>
+  [[Paper](https://papers.nips.cc/paper_files/paper/2023/hash/1a87980b9853e84dfb295855b425c262-Abstract-Conference.html)] [[Code](https://github.com/thu-ml/prolificdreamer)]<br>
+  Replaces vanilla SDS with variational score distillation to improve fidelity and diversity in optimization-based text-to-3D.
+
+- **MVDream: Multi-view Diffusion for 3D Generation** [ICLR 2024]<br>
+  [[Paper](https://proceedings.iclr.cc/paper_files/paper/2024/file/adbe936993aa7cf41e45054d8b72f183-Paper-Conference.pdf)] [[Project](https://mv-dream.github.io/)]<br>
+  Trains a multi-view diffusion prior that provides view-consistent SDS guidance for text-to-3D optimization.
+
+- **DreamCraft3D: Hierarchical 3D Generation with Bootstrapped Diffusion Prior** [ICLR 2024]<br>
+  [[Paper](https://proceedings.iclr.cc/paper_files/paper/2024/file/3170de57bc1899315b97712043d8bb22-Paper-Conference.pdf)] [[Code](https://github.com/deepseek-ai/DreamCraft3D)]<br>
+  Hierarchical geometry sculpting and texture boosting with bootstrapped, scene-specific diffusion priors.
+
+- **BoostDream: Efficient Refining for High-Quality Text-to-3D Generation from Multi-View Diffusion** [IJCAI 2024]<br>
+  [[Paper](https://www.ijcai.org/proceedings/2024/0598.pdf)]<br>
+  Plug-and-play refinement for coarse feed-forward 3D assets using multi-view SDS; relevant as an efficient text-to-3D refinement pipeline, but not a strict one-step generator.
+
 ### Robotics / Control
 
 - **OneDP: Fast Visuomotor Policies via Diffusion Distillation** [ICML 2025] 🔵  
